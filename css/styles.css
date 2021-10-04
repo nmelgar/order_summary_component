@@ -17,23 +17,26 @@ The designs were created to the following widths:
 ### Font
 - Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
 - Weights: 500, 700, 900*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
 :root {
   --pale-blue: hsl(225, 100%, 94%);
   --bright-blue: hsl(245, 75%, 52%);
-  --very-pale-blue: hsl(225, 100%, 95%);
+  --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
 }
 
 body {
+  font-family: 'Red Hat Display', sans-serif;
   margin: 0;
   padding: 0;
   background-color: var(--very-pale-blue);
   background-image: url("/images/pattern-background-desktop.svg");
   background-position: top;
   background-repeat: no-repeat;
-  color: red;
   text-align: center;
+  color: var(--desaturated-blue);
 }
 
 .container {
@@ -42,7 +45,7 @@ body {
 
 .component-container {
   margin: 0 auto;
-  margin-top: 10%;
+  margin-top: 5%;
   background: white;
   width: 450px;
   border-radius: 20px;
@@ -53,6 +56,66 @@ body {
   border-top-left-radius: 20px;
 }
 
-/* .hero-image{
-  background-image: url("/images/illustration-hero.svg");
-} */
+h1 {
+  color: var(--dark-blue);
+}
+
+.description {
+  color: var(--desaturated-blue);
+  padding: 0 65px 10px 65px;
+}
+
+.product-price {
+  background-color: var(--very-pale-blue);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+  margin: 10px 30px;
+  padding: 10px 30px;
+  align-items: center;
+}
+
+.center-column .annual-plan {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.right-column a {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--bright-blue);
+}
+
+.product-cost-amount {
+  color: var(--desaturated-blue);
+}
+
+.proceed-payment {
+  background: var(--bright-blue);
+  padding: 13px 131px;
+  margin: 20px 20px 10px 20px;
+  border-radius: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.proceed-payment a {
+  text-decoration: none;
+  color: white;
+}
+
+.cancel-order{
+  margin-bottom: 40px;
+}
+
+.cancel-order a {
+  color: var(--desaturated-blue);
+  text-decoration: none;
+}
+
+.attribution{
+  margin-top: 20px;
+}
