@@ -20,8 +20,39 @@ The designs were created to the following widths:
 :root {
   --pale-blue: hsl(225, 100%, 94%);
   --bright-blue: hsl(245, 75%, 52%);
-  --very-pale-blue: hsl(225, 100%, 98%);
+  --very-pale-blue: hsl(225, 100%, 95%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
-  
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--very-pale-blue);
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-position: top;
+  background-repeat: no-repeat;
+  color: red;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+}
+
+.component-container {
+  margin: 0 auto;
+  margin-top: 10%;
+  background: white;
+  width: 450px;
+  border-radius: 20px;
+}
+
+.main-component-image {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+/* .hero-image{
+  background-image: url("/images/illustration-hero.svg");
+} */

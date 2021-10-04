@@ -10,50 +10,42 @@
   <title>Frontend Mentor | Order summary card</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
 </head>
 
 <body>
   <div class="container">
-    <h1 class="order-h1">
-      Order Summary
-    </h1>
+    <div class="component-container">
+      <img class="main-component-image" src="/images/illustration-hero.svg" alt="">
+      <h1 class="order-h1">
+        Order Summary
+      </h1>
+      <p class="description">
+        You can now listen to millions of songs, audiobooks, and podcasts on any
+        device anywhere you like!
+      </p>
+      <div class="product-price">
+        <div class="left-column">
+          <!--Here will be the image of a music note-->
+          <img class="music-image" src="/images/icon-music.svg" alt="">
 
-    <p class="description">
-      You can now listen to millions of songs, audiobooks, and podcasts on any
-      device anywhere you like!
-    </p>
-
-    <div class="product-price">
-
-      <div class="left-column">
-        <!--Here will be the image of a music note-->
+        </div>
+        <div class="center-column">
+          <p>Annual Plan</p>
+          <p>$59.99/year</p>
+        </div>
+        <div class="right-column">
+          <p>Change</p>
+        </div>
       </div>
-
-      <div class="center-column">
-        <p>Annual Plan</p>
-        <p>$59.99/year</p>
-      </div>
-
-      <div class="right-column">
-        <p>Change</p>
-      </div>
-
+      <button class="proceed-payment">Proceed to Payment</button>
+      <p>Cancel Order</p>
     </div>
-
-
-
-
-    Proceed to Payment
-    Cancel Order
-
-  </div>
-
-
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    <!---Component Container Ends Here--->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
   </div>
 </body>
 
