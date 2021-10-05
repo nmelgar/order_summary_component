@@ -1,6 +1,6 @@
 # Order summary card
 
-![image](https://github.com/nmelgar/order_summary_component/blob/71d3603075f8418ea2207c6bf814e042dd5acdbf/final_component.JPG)
+![image](https://raw.githubusercontent.com/nmelgar/order_summary_component/71d3603075f8418ea2207c6bf814e042dd5acdbf/final_component.JPG)
 
 ## The challenge
 
