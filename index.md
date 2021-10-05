@@ -4,8 +4,8 @@
 
 ## The challenge
 
-The challenge was to build out this order summary card component and get it looking as close to the origial design as possible.
-[Original design and challenge:](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
+The challenge was to build out this order summary card component and get it looking as close to the origial design as possible. <br>
+[Original design and challenge](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj)
 
 All the code was written by me.
 HTML, CSS and CSS grid were the technologies used in this project.
