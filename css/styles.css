@@ -87,6 +87,10 @@ h1 {
   color: var(--bright-blue);
 }
 
+.right-column a:hover {
+  opacity: 50%;
+}
+
 .product-cost-amount {
   color: var(--desaturated-blue);
 }
@@ -107,8 +111,13 @@ h1 {
   color: white;
 }
 
-.cancel-order{
+.proceed-payment:hover {
+  opacity: 50%;
+}
+
+.cancel-order {
   margin-bottom: 40px;
+  font-weight: 700;
 }
 
 .cancel-order a {
@@ -116,6 +125,42 @@ h1 {
   text-decoration: none;
 }
 
-.attribution{
+.cancel-order a:hover {
+  color: var(--dark-blue);
+}
+
+.attribution {
   margin-top: 20px;
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    margin: 0 auto;
+  }
+
+  .component-container {
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 350px;
+  }
+
+  .main-component-image {
+    width: 350px;
+  }
+
+  .description {
+    padding: 0 50px 10px 50px;
+  }
+
+  .product-price {
+    display: grid;
+    grid-template-columns: 5% 75% 20%;
+    margin: 10px 30px;
+    padding: 10px 20px;
+  }
+
+  .proceed-payment {
+    padding: 13px 80px;
+  }
+
 }
